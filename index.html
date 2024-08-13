@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizmo Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  
+</head>
+<body>
+    
+<!-- Top Navigation Menu -->
+<header class="header">
+        <nav class="navbar">
+          <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#all-products" class="nav-link"><i class="fa-solid fa-boxes-stacked"></i>  كل المنتجات</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#freq-qu" class="nav-link"><i class="fa-solid fa-message"></i> الأسئلة الشائعة</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sendm" class="nav-link"><i class="fa-solid fa-address-book"></i> إتواصل معانا</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#follow-us" class="nav-link"><i class="fa-solid fa-user-plus"></i> تابعنا على وسائل التواصل الإجتماعي</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.t.me/Topz8" class="nav-link"><i class="fa-solid fa-code"></i> تواصل مع المطور</a>
+                </li>
+            </ul>
+            <a href="#" class="nav-logo">Gizmo <i class="fa-solid fa-power-off"></i></a>
+        </nav>
+</header>
+
+    <!-- Section for Offers -->
+    <section id="offers" class="">
+        <h2>عروض قيزمو الخاصة</h2>
+        <!-- Content for offers -->
+        <div id="scrolling-wrapper" class="scrolling-wrapper">
+    <div class="card">
+      <img src="https://cdn.mos.cms.futurecdn.net/5wDTVRZKp9R9XBGanPzCND-1200-80.jpg" width="100%">
+    </div>
+    <div class="card">
+     <img src="https://cdn.dxomark.com/wp-content/uploads/medias/post-165263/Samsung-Galaxy-S24-Ultra_A_featured-image-packshot-review-1024x691.jpg" width="100%">
+    </div>
+    <div class="card">
+      <img src="https://cdn.dxomark.com/wp-content/uploads/medias/post-170443/Xiaomi-Redmi-Note-13-Pro-5G_featured-image-packshot-review.jpg" width="100%">
+    </div>
+</div>
+
+    </section>
+
+    <!-- Section for Browse by Categories -->
+    <section id="categories">
+        <h2>تصفح بالفئات</h2>
+        <!-- Content for categories -->
+        <div class="scrolling-wrapper-categ">
+            <a href="#mobile" class="card" >
+                <i class="fa-solid fa-mobile"></i>
+                <p>الموبايلات</p>
+            </a>
+            <a href="#headphone" class="card">
+                <i class="fa-solid fa-headphones-simple"></i>
+                <p>سماعات الأذن</p>
+            </a>
+            <a href="#watch" class="card">
+                <i class="fa-solid fa-clock"></i>
+                <p>ساعات ذكية</p>
+            </a>
+            <a href="#charger" class="card">
+                <i class="fa-solid fa-plug-circle-bolt"></i>
+                <p>شواحن</p>
+            </a>
+            <a href="#powerbank" class="card">
+                <i class="fa-solid fa-battery-full"></i>
+                <p>بنك الطاقة</p>
+            </a>
+            <a href="#speaker" class="card">
+                <i class="fas fa-volume-up"></i>
+                <p>سماعات خارجية</p>
+            </a>
+            <a href="#other" class="card">
+                <i class="fas fa-ellipsis-h"></i>
+                <p>اخرى</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section for Best Seller Products -->
+    <section class="animate__animated animate__fadeInUpBig" id="best-sellers">
+        <h2>الاكثر مبيعاً</h2>
+        <!-- Content for best sellers -->
+        <div class="product-container">
+        <div class="product-card">
+            <img src="https://explorehonor.com/cdn/shop/files/HONORCHOICEWatch-Black-1_1500x.jpg?v=1707979880" alt="Product 1">
+            <div class="title">ساعة ذكية من هونر</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">90,000 SDG</div>
+        </div>
+        <div class="product-card">
+            <img src="https://dvf83rt16ac4w.cloudfront.net/upload/media/1718097864369712.jpeg" alt="Product 2">
+            <div class="title">شاومي ريدمي 13</div>
+            <div class="stars">★★★☆☆</div>
+            <div class="price">348,000 SDG</div>
+        </div>
+        <div class="product-card">
+            <img src="https://www.powerology.me/web/image/product.product/192/image_1024/%5BPPBCHA05-BK%5D%20Powerology%20Compact%20Power%20Bank%2020000mAh%20PD%2030W%20%28%E2%80%8BBlack%29?unique=4d9462f" alt="Product 3">
+            <div class="title">باوربانك من قيزمو 20,000 mA</div>
+            <div class="stars">★★★★★</div>
+            <div class="price">60,000 SDG</div>
+        </div>
+        <div class="product-card">
+            <img src="https://www.runbazaar.com/_next/image/?url=https%3A%2F%2Fapi.runbazaar.com%2Fmedia%2F__sized__%2Fproduct_img%2F2024%2F06%2F24%2FRBIqyafi%2F643-smart_crop-c0-5__0-5-750x750-70.jpg&w=750&q=75" alt="Product 4">
+            <div class="title">سماعة بلوتوث Neckband</div>
+            <div class="stars">★★★☆☆</div>
+            <div class="price">23,000 SDG</div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+    <!-- Section for Our Brand -->
+    <section id="our-brand">
+        <h2>منتجات قيزمو<span>Gizmo <i class="fa-solid fa-power-off"></i></span></h2>
+        <!-- Content for our brand -->
+        <div class="product-container-gizmo">
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/0jJKYpt8/FB-IMG-1723320728123.jpg" alt="Product 1">
+            <div class="title">باوربانك من قيزمو 20,000 mA</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">60,000 SDG</div>
+        </div>
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/zBQRHdFt/FB-IMG-1723320704045.jpg" alt="Product 1">
+            <div class="title">وصلة من قيزمو usb-c to type-c</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">8,000 SDG</div>
+        </div>
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/PNsp2Pc1/FB-IMG-1723320695336.jpg" alt="Product 1">
+            <div class="title">قلم يعمل في جميع الاجهزة اللوحية</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">25,000 SDG</div>
+        </div>
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/qM88MbwJ/Untitled-design-7.png" alt="Product 1">
+            <div class="title">MagSafe باوربانك من قيزمو 10,000mA</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">45,000 SDG</div>
+        </div>
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/76h26v0J/FB-IMG-1723320688662.jpg" alt="Product 1">
+            <div class="title">سماعة ستريو من قيزمو 3.5</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">5,000 SDG</div>
+        </div>
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/K89pjMH9/FB-IMG-1723358655008.jpg" alt="Product 1">
+            <div class="title">سماعة ستريو تايب سي من قيزمو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">8,000 SDG</div>
+        </div>
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/LsHPcgsT/FB-IMG-1723320682272.jpg" alt="Product 1">
+            <div class="title">باوربانك 10,000mA من قيزمو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">25,000 SDG</div>
+        </div>
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/mr89BZzG/FB-IMG-1723320654708.jpg" alt="Product 1">
+            <div class="title">ساعة ذكية من قيزمو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">55,000 SDG</div>
+        </div>
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/x1VMP4DB/FB-IMG-1723320648252.jpg" alt="Product 1">
+            <div class="title">شاحن سريع 20W مع مخرجين للشحن من قيزمو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">10,000</div>
+        </div>
+        <div class="product-card-gizmo">
+            <img src="https://i.postimg.cc/pLQ8cJPr/FB-IMG-1723320641512.jpg" alt="Product 1">
+            <div class="title">ماكينة حلاقة من قيزمو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">20,000 SDG</div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Section for All Products -->
+    <section id="all-products">
+        <h2>كل المنتجات</h2>
+        <!-- Content for all products -->
+        <h2 id="mobile" style="font-size:18px;">الموبايلات</h2>
+                <div class="product-container-all">
+        <div class="product-card-all">
+            <img src="https://elektragt.vtexassets.com/arquivos/ids/192967-800-auto?v=638349095406230000&width=800&height=auto&aspect=true" alt="Product 1">
+            <div class="title">موتورولا G54 5G</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">385,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://5.imimg.com/data5/ECOM/Default/2024/1/375778896/XJ/LS/QO/47699750/sk2093-300x300-500x500.png" alt="Product 1">
+            <div class="title">موتورولا G84 5G</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">495,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://tiendasigloxxi.es/175276-large_default/motorola-moto-g24-power-8gb-256gb-blue-ink-blue-dual-sim.jpg" alt="Product 1">
+            <div class="title">موتورولا G24 باور</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">340,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://api-rayashopng.global.ssl.fastly.net/media/catalog/product/cache/4e49ac3a70c0b98a165f3fa6633ffee1/r/e/redmi_a3x_green_1.png?format=webp&width=368" alt="Product 1">
+            <div class="title">شاومي ريدمي A3X</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">178,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://btech.com/media/catalog/product/n/e/newproject-2024-05-01t184421.731_1024x_1.jpg?width=1024&store=en&image-type=image" alt="Product 1">
+            <div class="title">ريلمي نوت 50</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">212,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://cdn.salla.sa/ZdnoW/b6020b7a-4cd3-4a2c-9b2b-f4e20a9c72a7-1000x1000-h7Yb5FcsTWuR4sQFbrgGK2hGkmYoM27Yw50s20bB.jpg" alt="Product 1">
+            <div class="title">هونر 200 لايت</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">540,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://shop.theclub.com.hk/media/catalog/product/cache/b0466c3e1db955fce9035d6eb00a32fd/2/4/2472891_1.jpg" alt="Product 1">
+            <div class="title">هونر 200 5G</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">960,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://etopia.hk/wp-content/uploads/2024/01/SAMA055FDS-741.jpg" alt="Product 1">
+            <div class="title"> غالكسي A05</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">222,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://explorehonor.com/cdn/shop/files/x-9b-black-4_1500x.png?v=1707979365" alt="Product 1">
+            <div class="title">هونر X9b 5G</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">580,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/7/23/34fa9278-e405-4826-93d1-355542f91921.png" alt="Product 1">
+            <div class="title">شاومي ريدمي 13C</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">230,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://dvf83rt16ac4w.cloudfront.net/upload/media/1718097864369712.jpeg" alt="Product 1">
+            <div class="title">شاومي ريدمي 13</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">348,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        </div>
+        
+                <h2 id="headphone" style="font-size:18px;margin-top:64px;">سماعات الرأس</h2>
+                <div class="product-container-all">
+                  <div class="product-card-all">
+            <img src="https://image.made-in-china.com/202f0j00zCmqifdgABbE/1-1-Original-Mobile-Phone-Accessories-Wired-Earbuds-USB-C-Earpods-for-iPhone15.webp" alt="Product 1">
+            <div class="title">آبل ايربودز USB-C</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">50,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+                  <div class="product-card-all">
+            <img src="https://www.runbazaar.com/_next/image/?url=https%3A%2F%2Fapi.runbazaar.com%2Fmedia%2F__sized__%2Fproduct_img%2F2024%2F06%2F24%2FRBIqyafi%2F643-smart_crop-c0-5__0-5-750x750-70.jpg&w=750&q=75" alt="Product 1">
+            <div class="title">سماعة بلوتوث Neckband</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">23,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+                  <div class="product-card-all">
+            <img src="https://i.postimg.cc/K89pjMH9/FB-IMG-1723358655008.jpg" alt="Product 1">
+            <div class="title">سماعة ستريو تايب سي من قيزمو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">8,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://dvf83rt16ac4w.cloudfront.net/upload/product/20231221_1703134646_924905.jpeg" alt="Product 1">
+            <div class="title">ايربودز من هونر</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">31,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.runbazaar.com/_next/image/?url=https%3A%2F%2Fapi.runbazaar.com%2Fmedia%2F__sized__%2Fproduct_img%2F2023%2F06%2F13%2FRBIzmQwo%2F2306131526430-smart_crop-c0-5__0-5-750x750.png&w=750&q=75" alt="Product 1">
+            <div class="title">سماعة راس من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">31,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://i.postimg.cc/76h26v0J/FB-IMG-1723320688662.jpg" alt="Product 1">
+            <div class="title">سماعة ستريو من قيزمو 3.5</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">5,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.mumzworld.com/media/cGF0aD0lMkZtZWRpYSUyRmNhdGFsb2clMkZwcm9kdWN0JTJGNjk1NzE0MTQwODcxMS0xLmpwZyZmaXQ9Y292ZXImd2lkdGg9NjQw.webp" alt="Product 1">
+            <div class="title">سماعة ايربودز جودة عالية من QCY</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">23,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        
+        
+        <div class="product-card-all">
+            <img src="https://tekstore.ae/cdn/shop/files/GNPATRSTWSBK_GreenLionPatrasWirelessEarbuds__Black.jpg?v=1706599049" alt="Product 1">
+            <div class="title">ايربودز من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">19,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        
+        <div class="product-card-all">
+            <img src="https://electrovybd.com/wp-content/uploads/2024/07/redmi-buds-4-1_1.jpg" alt="Product 1">
+            <div class="title">شاومي ريدمي بودز 4</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">29,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://exitocol.vtexassets.com/arquivos/ids/22666514/Earbuds-X3-Lite-Obsequio-HONOR-SIN-REF-3462379_d.jpg?v=638497576161100000" alt="Product 1">
+            <div class="title">هونر ايربودز X3 لايت</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">24,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://celloplanet.com/wp-content/uploads/2024/04/U-1510-e1712220530122.jpeg" alt="Product 1">
+            <div class="title">ميبرو ايربودز 3 من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">38,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://onei.lk/wp-content/uploads/2024/07/1-16.jpg" alt="Product 1">
+            <div class="title">سماعة بلوتوث من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">22,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://m.media-amazon.com/images/I/61WjkBfSzyL.jpg" alt="Product 1">
+            <div class="title">سماعة بلوتوث من JBL</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">52,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        </div>
+                <h2 id="watch" style="font-size:18px;margin-top:64px;">الساعات الذكية</h2>
+                <div class="product-container-all">
+                  <div class="product-card-all">
+            <img src="https://mistorechile.cl/wp-content/uploads/2023/10/group-86-1-79125388-04e5-4dd2-88dd-87242c67e713.jpg" alt="Product 1">
+            <div class="title">شاومي باند 8</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">48,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+                  <div class="product-card-all">
+            <img src="https://i.postimg.cc/mr89BZzG/FB-IMG-1723320654708.jpg" alt="Product 1">
+            <div class="title">ساعة ذكية من قيزمو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">55,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://explorehonor.com/cdn/shop/files/HONORCHOICEWatch-Black-1_1500x.jpg?v=1707979880" alt="Product 1">
+            <div class="title">ساعة ذكية من هونر</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">90,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://d61s2hjse0ytn.cloudfront.net/product-image/948/QCY_GT_Balck.webp" alt="Product 1">
+            <div class="title">ساعة ذكية من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">51,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://i0.wp.com/ioffer.ae/wp-content/uploads/2024/07/499-smart_crop-c0-5__0-5-750x750-70.webp?fit=640%2C640&ssl=1" alt="Product 1">
+            <div class="title">ساعة ذكية من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">55,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://dvf83rt16ac4w.cloudfront.net/upload/product/20231221_1703140471_201304.jpeg" alt="Product 1">
+            <div class="title">ساعة ذكية من هونر</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">58,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://jomla.ae/_next/image/?url=https%3A%2F%2Fwp.jomla.ae%2Fwp-content%2Fuploads%2F2024%2F05%2FGreen-Lion-Signature-Pro-Smart-Watch-SilverGreen-Lion-Signature-Pro-Smart-Watch-Silver.jpeg&w=640&q=75" alt="Product 1">
+            <div class="title">ساعة ذكية من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">75,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://xiaomistoreph.com/cdn/shop/products/Redmi_Watch3Active_WBG_Black_2_736x736.jpg?v=1717642292" alt="Product 1">
+            <div class="title">ريدمي واتش 3</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">76,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://cdn11.bigcommerce.com/s-sp9oc95xrw/images/stencil/1280x1280/products/19953/72877/PRODUCT_IMAGE__91415.1703079812.jpg?c=2?imbypass=on" alt="Product 1">
+            <div class="title">ساعة ذكية من قرين</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">71,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.novoatalho.pt/Images/product/lg/SMARTWA531_1_Qqty.jpg" alt="Product 1">
+            <div class="title">شاومي ريدمي واتش 2 لايت</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">63,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        
+        </div>
+        <h2 id="charger" style="font-size:18px;margin-top:64px;">الشواحن</h2>
+                <div class="product-container-all">
+        
+        <div class="product-card-all">
+            <img src="https://img.fruugo.com/product/3/41/1410205413_0340_0340.jpg" alt="Product 1">
+            <div class="title">شاحن شاومي 120W</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">77,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.batna24.com/img2/1000/329884_1.webp" alt="Product 1">
+            <div class="title">شاحن 65W من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">58,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.greenlion.net/web/image/product.product/6987/image_1024/%5BGNPD40UCLWCBK%5D%20Green%20Lion%2040W%20Dual%20PD%20Wall%20Charger%20?unique=cacead9" alt="Product 1">
+            <div class="title">شاحن سريع 40W من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">14,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.greenlion.net/web/image/product.product/7001/image_1024/%5BGNPD20UCLWCBK%5D%20Green%20Lion%20PD%2020W%20USB-C%20Wall%20Charger%20With%20USB-C%20To%20Lightning%20Cable%20-%20Black?unique=cc8d93e" alt="Product 1">
+            <div class="title">شاحن سريع 20W من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">10,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://btech.com/media/catalog/product/4/4/44c3377785cecc6d6b657427a629c66a18f8a9c4c8000a3347dbcd6a6e4e6512.jpeg?width=900&store=en&image-type=image" alt="Product 1">
+            <div class="title">شاحن سريع 20w من أبل</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">46,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://i.postimg.cc/x1VMP4DB/FB-IMG-1723320648252.jpg" alt="Product 1">
+            <div class="title">شاحن سريع 20W مع مخرجين للشحن من قيزمو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">10,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://images.mobilefun.co.uk/graphics/450pixelp/87841.jpg" alt="Product 1">
+            <div class="title">ادابتر يدعم الشحن السريع من سامسونغ</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">21,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        </div>
+        
+        <h2 id="powerbank" style="font-size:18px;margin-top:64px;">بنك الطاقة</h2>
+                <div class="product-container-all">
+        <div class="product-card-all">
+            <img src="https://i.postimg.cc/0jJKYpt8/FB-IMG-1723320728123.jpg" alt="Product 1">
+            <div class="title">باوربانك من قيزمو 20,000 mA</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">60,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://i.postimg.cc/LsHPcgsT/FB-IMG-1723320682272.jpg" alt="Product 1">
+            <div class="title">باوربانك 10,000mA من قيزمو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">25,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://i.postimg.cc/CMR7Ys95/20240811-131837.png" alt="Product 1">
+            <div class="title">باوربانك 50,000mA من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">56,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://i.postimg.cc/qM88MbwJ/Untitled-design-7.png" alt="Product 1">
+            <div class="title">MagSafe باوربانك من قيزمو 10,000mA</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">45,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.runbazaar.com/_next/image/?url=https%3A%2F%2Fapi.runbazaar.com%2Fmedia%2F__sized__%2Fproduct_img%2F2023%2F10%2F09%2FRBIqOocY%2FWhatsApp_Image_2024-03-04_at_18.06.04_1a1716ec-smart_crop-c0-5__0-5-750x750-70.jpg&w=750&q=75" alt="Product 1">
+            <div class="title">باوربانك 30,000mA من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">49,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.greenlion.net/web/image/product.product/4539/image_1024/%5BGNROME10KPBBK%5D%20Green%20Lion%20Rome%20Ultra%20Slim%20Power%20Bank%2010000mAh%20-%20Black?unique=d0900cc" alt="Product 1">
+            <div class="title">باوربانك 10,000mA من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">18,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        
+        </div>
+        
+        <h2 id="speaker" style="font-size:18px;margin-top:64px;">السماعات الخارجية</h2>
+                <div class="product-container-all">
+        <div class="product-card-all">
+            <img src="https://audioshopnepal.com/wp-content/uploads/2023/05/GO3-RD-1f.jpg" alt="Product 1">
+            <div class="title">سماعة بلوتوث من JBL</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">72,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://thumb.pccomponentes.com/w-530-530/articles/1029/10290731/1271-jbl-charge5-altavoz-inalambrico-gris.jpg" alt="Product 1">
+            <div class="title">سماعة بلوتوث من JBL</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">290,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://smartbuy-me.com/smartbuystore/medias/XIA0711ST0021.jpg?context=c21hcnRidXliMmN8aW1hZ2VzfDEwNTQ0NnxpbWFnZS9qcGVnfGltYWdlcy9oNDcvaDdmLzg4NzYxNTYwNTk2NzgvWElBMDcxMVNUMDAyMS5qcGd8OGRhM2U1NzExYzk0MGE0OTFhYjVjZWI5NzdkODNiYWU2OTczYTZkMjJmZjIzOTFjNjNhZjk5M2VmMTBiODRiMQ" alt="Product 1">
+            <div class="title">سماعة بلوتوث من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">75,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        </div>
+        
+        <h2 id="other" style="font-size:18px;margin-top:64px;">آخرى</h2>
+                <div class="product-container-all">
+        <div class="product-card-all">
+            <img src="https://wrapsol.sa/wp-content/uploads/2024/02/GNREWIRMUSEWH.png" alt="Product 1">
+            <div class="title">ماوس لاسلكي من قرين لايون</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">13,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.videoplusfrance.com/570106-medium_default/apple-pencil-usb-c.jpg" alt="Product 1">
+            <div class="title">قلم آبل الإصدار الأول</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">150,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.mumzworld.com/media/cGF0aD0lMkZtZWRpYSUyRmNhdGFsb2clMkZwcm9kdWN0JTJGbyUyRmglMkZvaGctYm1kLW0zLWJsYWNrLWJvbWlkaS1tMy1lbGVjdHJpYy1zaGF2ZXItYmxhY2stMTY3MTcwNTIwOC5qcGcmZml0PWNvdmVyJndpZHRoPTY0MA.webp" alt="Product 1">
+            <div class="title">ماكينة حلاقة اللحية من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">22,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://i.postimg.cc/bJzWYC44/Untitled-design-8.png" alt="Product 1">
+            <div class="title">شاحن طفاية 20W</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">10,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://m.media-amazon.com/images/I/61eTuTwrKrL._AC_UF1000,1000_QL80_FMwebp_.jpg" alt="Product 1">
+            <div class="title">مكواه كيرلي للشعر</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">30,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.dohansqatar.com/cdn/shop/products/dohans-mobile-phone-cases-black-realme-c35-lens-protector-case-cover-34336493961412.jpg?v=1681308179" alt="Product 1">
+            <div class="title">كفر موبايل راقي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">2,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://authentico.pk/cdn/shop/files/MiBag_1024x1024.jpg?v=1713272086" alt="Product 1">
+            <div class="title">شنطة راقية من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">18,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://garmade.com/cdn/shop/products/OG1946B.jpg?v=1704240765" alt="Product 1">
+            <div class="title">نظارة طبية من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">46,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://assets.dubuy.com/pictures/006863625_0.jpg" alt="Product 1">
+            <div class="title">وصلة كهرباء مع مخارج usb من JBQ</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">30,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/l1nwnm80/data-cable/usb-type-c-cable/5/6/u/6-5a-65w-super-vooc-charge-data-sync-fast-charging-type-c-cable-original-imagd6g8kqfmnjg7.jpeg?q=20&crop=false" alt="Product 1">
+            <div class="title">وصلة شحن من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">8,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://ae-pic-a1.aliexpress-media.com/kf/H57a60f8f5f8547d5bbc4a96c5a3b4e94j.jpg_640x640Q90.jpg_.webp" alt="Product 1">
+            <div class="title">نظارة للكمبيوتر من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">30,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://ae-pic-a1.aliexpress-media.com/kf/S6047302f08964757ba7d994e7b52dff7v.jpg_640x640Q90.jpg_.webp" alt="Product 1">
+            <div class="title">نظارة حماية من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">32,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://s.alicdn.com/@sc04/kf/Sb9e8d8168c6e4153bfac333e8583565bZ.jpg_720x720q50.jpg" alt="Product 1">
+            <div class="title">مكواة سيراميك للشعر من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">38,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://ae-pic-a1.aliexpress-media.com/kf/HTB1khMxdv1G3KVjSZFkq6yK4XXae.jpg_640x640Q90.jpg_.webp" alt="Product 1">
+            <div class="title">نظارة شمسية من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">29,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://i5.walmartimages.com/asr/a6b0de50-c668-460d-8558-7a771abe3cff.a650724d83b566fc9da32cfbe2435d4b.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" alt="Product 1">
+            <div class="title">كفر موبايل راقي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">2,500 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.dlink.com.ph/wp-content/uploads/2021/06/DWR-M920-2.jpg" alt="Product 1">
+            <div class="title">راوتر 4G من D-Link</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">115,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://ae01.alicdn.com/kf/S34f471cf7f314d029c4c98482038d24de.jpg_640x640q90.jpg" alt="Product 1">
+            <div class="title">نظارة شمسية من شاومي</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">28,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.imagineonline.store/cdn/shop/products/5_46822708-f718-4808-8edf-af147cb33bfe.png?v=1669096132&width=600" alt="Product 1">
+            <div class="title">MegaSafe كفر</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">6,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        <div class="product-card-all">
+            <img src="https://www.ctens.com/image/cache/catalog/Laptop%20AC/GX30L66303/Lenovo%20100%20Wireless%20Keyboard-Mouse%20Combo-600x800-600x800.jpg" alt="Product 1">
+            <div class="title">كيبورد وماوس لينوفو</div>
+            <div class="stars">★★★★☆</div>
+            <div class="price">50,000 SDG</div>
+            <button onclick="openWhatsApp(this)"><i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+        </div>
+    </section>
+
+    <!-- Section for Subscribe to Frequently -->
+    <section id="freq-qu">
+      <h2>الاسئلة الشائعة</h2>
+      <div class="freq">
+        <button class="accordion">عندكم خدمة توصيل ؟</button>
+<div class="panel">
+  <p>نعم متوفرة خدمة توصيل ولكن فقط في احياء ومدن وسط بورتسودان</p>
+</div>
+
+<button class="accordion">فروعكم وين ؟</button>
+<div class="panel">
+  <p>فرعنا الرئيسي في بورتسودان ولكن بالنسبة لـ عطبرة وكوستي وربك في نقطة إستلام لبعض المنتجات</p>
+</div>
+
+<button class="accordion">عندكم ضمان على المنتجات ؟</button>
+<div class="panel">
+  <p>نعم يوجد ضمان وتختلف مدة الضمان حسب المنتج وهذه التفاصيل يتم توضحيها في منشور المنتج</p>
+</div>
+</div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <h2 style="text-align:right;">إتواصل معانا</h2>
+      <div class="sendm" id="sendm">
+        <input type="text" id="messageInput" placeholder="أكتب رسالك هنا...">
+        <button onclick="openWhatsAppChat()"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+        <div class="footer-content">
+                <div class="follow-us" id="follow-us">
+        <h2>حساباتنا على منصات التواصل الإجتماعي</h2>
+        <div class="social-icons">
+            
+            <a href="https://www.facebook.com/gizmosudan?mibextid=ZbWKwL" target="_blank" title="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/gizmosudan?igsh=amxvOG51bm55eGwx" target="_blank" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+                <!-- FAQ content -->
+            </div>
+            
+        <p><span>Gizmo <i class="fa-solid fa-power-off"></i></span> <br> All rights reserved © 2024</p>
+            <a id="back-to-top" href="#" title="back-to-top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+    </footer>
+    <a id="call" href="tel:249919001000" target="_blank" title="Call">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+            
+
+    <script>
+        function openWhatsAppChat() {
+            var message = document.getElementById("messageInput").value;
+            var phoneNumber = "249906797578";
+            var url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+    </script>
+    <script>
+      const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+    </script>
+      <script>
+        function openWhatsApp(button) {
+            const phoneNumber = '249906797578';
+            const card = button.closest('.product-card-all');
+            const productTitle = card.querySelector('.title').textContent;
+     const message = encodeURIComponent(` سلام عليكم، عايز  ${productTitle}`);
+            window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+        }
+    </script>
+    
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+    </script>
+</body>
+</html>
